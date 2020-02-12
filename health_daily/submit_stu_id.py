@@ -46,7 +46,7 @@ for info_list in origin_list:
     driver.find_element_by_xpath(
         '//*[@id="new_entry"]/div[2]/div/div[4]/div[4]/div/div[2]/div[2]/label[1]/div').click()#无困难
 
-    #driver.find_element_by_xpath('//*[@id="new_entry"]/div[2]/div/div[5]/input[1]').click() #提交
+    #driver.find_element_by_xpath('//*[@id="new_entry"]/div[2]/div/div[5]/input[1]').click() #提交，默认注释掉
     time.sleep(1)
     driver.get('https://jinshuju.net/f/enG1Hm')
 
