@@ -18,6 +18,11 @@
 
   'webdriver' 中 'Chrome()' 的调用需要将chromedriver的可执行文件放入python路径中的script文件夹下。
   [chromedriver下载地址](https://code.google.com/p/chromedriver/downloads/list)
+  链接打不开可能需要科学上网
+
++ 增加了自动填写网课统计表单的爬虫
+  
+  根据健康日报自动填写的爬虫改写，逻辑原理相同。
 
 ## 个人成绩自动查询以及导出
 
